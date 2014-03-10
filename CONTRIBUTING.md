@@ -59,13 +59,6 @@ The full test output is available in `test-suite.log`, and partial
 output is available in the log for the test itself (e.g.
 `spec/integration/arguments_spec.log`).
 
-When adding a new test file, you must add it to the `TESTS` variable in
-`Makefile.am`:
-
-    TESTS = spec/units/internal_command_spec.rb \
-            ... \
-            spec/new_stuff_spec.rb
-
 ## Releasing a new version
 
 gitsh is packaged and installed using GNU autotools.

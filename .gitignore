@@ -13,6 +13,7 @@ configure.scan
 install-sh
 missing
 depcomp
+test-driver
 
 # Make targets
 src/gitsh
